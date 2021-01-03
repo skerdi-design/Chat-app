@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./app/style.css">
+</head>
+<body>
+    <!-- <a href="/app">Go to room chat</a> -->
+    <div class="container">
+        <header>Chat Bot App</header>
+        <form action="/app">
+            <div class="username">
+                <input id="user" type="text" required="" name="username" autocomplete="off">
+                <svg viewBox="0 0 30 30">
+                    <polyline points="12,5 29,15 12,25" style="fill:rgba(0, 0, 0, 0);stroke:rgb(206, 206, 206);stroke-width:3;stroke-linecap:round;" />
+                </svg> 
+                <label for="user">username</label>
+            </div>
+            <div class="rooms">
+                <select name="room" id="rooms" class="room">
+                    <option value="Javascript">Javascript</option>
+                    <option value="Python">Python</option>
+                    <option value="PHP">PHP</option>
+                    <option value="C++">C++</option>
+                </select>
+                <label for="rooms">Chose a room</label>
+                <svg viewBox="0 0 30 30">
+                    <polyline points="12,5 29,15 12,25" style="fill:rgba(0, 0, 0, 0);stroke:rgb(206, 206, 206);stroke-width:3;stroke-linecap:round;" />
+                </svg> 
+            </div>
+            <button class="button">Login</button>
+        </form>
+    </div>
+</body>
+</html>
